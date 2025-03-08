@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MyUtils {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidStringInputException {
         StringParser sp = new StringParser();
 
         String str = "Hello|World|How are|you all";
